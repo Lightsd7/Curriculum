@@ -39,7 +39,7 @@
             text-align: center;
             margin: 0 auto;
             border-radius: 20px 50px;
-            box-shadow: 2px 2px 5px;
+            
         }
 
         #contato p {
@@ -48,12 +48,55 @@
             margin: 5px;
         }
 
+        .sombra{
+            box-shadow: 0 2px 5px;
+        }
         .semnegrito{
-            font-weight: none;
+            font-weight: normal !important;
         }
         
         .italico{
-            font-style: italic;
+            font-style: italic !important;
+        }
+        .fundo-cinza-claro{
+            background-color: lightgrey;
+        }
+
+        #secao{
+            /* font-weight: bolder;
+            padding: 40px;
+            background-color: #777;
+            border-radius: 10px 50px;
+            margin: 10px auto; */
+            width: 80%;
+            margin: 20px auto 0; 
+        }
+
+        #secao h2{
+            padding: 10px;
+            font-size: 20px;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+        #secao h3{
+            font-size: 19px;
+            font-weight: bold;
+            color: #a30000;
+            margin: 10px 8px;
+        }
+
+        #secao p{
+            font-size: 16px;
+            margin: 0 20px;
+        }
+
+        #rodape{
+            text-align: center;
+            padding: 30px;
+            font-size: 18px;
+            color: white;
+            text-shadow: 1px 1px #000;
+            background-color: darkgrey;
         }
 
     </style>
@@ -71,7 +114,7 @@
 
     </div>
     <div id="secao">
-        <h2>Sumário</h2>
+        <h2 class="sombra fundo-cinza-claro">Sumário</h2>
         <p>Mussum Ipsum, cacilds vidis litro abertis. Não sou faixa preta cumpadi, sou preto inteiris, inteiris. Nec orci ornare
             consequat. Praesent lacinia ultrices consectetur. Sed non ipsum felis. Diuretics paradis num copo é motivis de
             denguis. Detraxit consequat et quo num tendi nada. Delegadis gente finis, bibendum egestas augue arcu ut est.
@@ -79,13 +122,13 @@
             fermentis. Interagi no mé, cursus quis, vehicula ac nisi.</p>
     </div>
     <div id="secao">
-        <h2>Formação Acadêmica</h2>
+        <h2 class="sombra fundo-cinza-claro">Formação Acadêmica</h2>
         <h3>Anhembi Morumbi</h3>
         <p>Bacharel em Design de Games</p>
-        <p>São Paulo - 2012 ~2016</p>
+        <p>São Paulo - 2012~2016</p>
     </div>
     <div id="rodape">
-
+        <p>&copy; 2019 Raphael Molina</p>
     </div>
 </body>
 
